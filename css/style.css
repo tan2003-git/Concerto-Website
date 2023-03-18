@@ -1,0 +1,831 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #11191b;
+}
+
+@import url("https://fonts.cdnfonts.com/css/impact");
+/*
+ font-family: 'Impact', sans-serif;
+ font-family: 'Impacted', sans-serif;
+*/
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+/* font-family: 'Segoe UI', sans-serif;*/
+
+.clear {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+.mr_0 {
+  margin-right: 0 !important;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.head {
+  padding: 27px 0;
+  background: url("../images/banner.png") no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+}
+.head_container_shadow{
+  width: 100%;
+  background-color: #102839 ;
+  height: 64px;
+  opacity: 50%;
+  position: absolute;
+  top: 0px;
+}
+.head_container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 154px;
+  height: 44px;
+  float: left;
+}
+.sign_in {
+  margin-top: 10px;
+  width: 260px;
+  float: right;
+}
+.sign_in .sign_in_left {
+  width: 115px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #1d3b48;
+  color: #ffffe8;
+  border-radius: 8px;
+  line-height: 30px;
+  float: left;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  margin-right: 26px;
+}
+.sign_in .sign_in_left:hover {
+  background-color: #0f6b92;
+}
+.sign_in .sign_in_right {
+  width: 115px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #1d3b48;
+  color: #ffffe8;
+  border-radius: 8px;
+  line-height: 30px;
+  float: left;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  margin-right: 26px;
+}
+.sign_in .sign_in_right:hover {
+  background-color: #0f6b92;
+}
+.menu {
+  width: 550px;
+  margin: 0 auto;
+}
+.menu ul {
+  list-style: none;
+  padding: 15px 0;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400px;
+  margin-right: 57px;
+  text-decoration: none;
+  color: #c6d4db;
+  font-size: 15px;
+}
+.menu ul li a:hover {
+  color: #1d94c7;
+}
+.social {
+  margin: 100px 0;
+  width: 35px;
+  height: 191px;
+  float: right;
+}
+.social ul {
+  list-style: none;
+}
+.social ul li {
+  margin-bottom: 30px;
+}
+.social ul li a.fb {
+  background: url("../images/facebook.png") no-repeat 0 0;
+  display: block;
+  width: 13px;
+  height: 23px;
+}
+.social ul li a.fb:hover {
+  background: url("../images/facebook_hv.png") no-repeat 0 0;
+}
+.social ul li a.insta {
+  background: url("../images/insta.png") no-repeat 0 0;
+  display: block;
+  width: 21px;
+  height: 21px;
+}
+.social ul li a.insta:hover {
+  background: url("../images/insta_hv.png") no-repeat 0 0;
+}
+.social ul li a.gplus {
+  background: url("../images/gplus.png") no-repeat 0 0;
+  display: block;
+  width: 32px;
+  height: 21px;
+}
+.social ul li a.gplus:hover {
+  background: url("../images/gplu_hv.png") no-repeat 0 0;
+}
+.social ul li a.twt {
+  background: url("../images/twitter.png") no-repeat 0 0;
+  display: block;
+  width: 25px;
+  height: 21px;
+}
+.social ul li a.twt:hover {
+  background: url("../images/twt_hv.png") no-repeat 0 0;
+}
+.main {
+  width: 100%;
+}
+.main h1 {
+  width: 850px;
+  color: #dfe7eb;
+  font-family: Impact;
+  margin: 25px auto;
+  font-size: 157px;
+  letter-spacing: 110px;
+  font-weight: 400;
+  text-shadow: 0px 12px #1e98cc;
+}
+.main h1 span {
+  margin-top: -230px;
+  color: #1d94c7;
+}
+.main p {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 17px;
+  color: #b6cdd7;
+  text-align: center;
+  padding: 60px 0;
+  line-height: 30px;
+}
+.buy_ticket {
+  width: 390px;
+  margin: 0 auto 50px;
+}
+.buy_tik_left {
+  width: 180px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #1d3b48;
+  color: #c3d0d5;
+  border-radius: 8px;
+  line-height: 30px;
+  float: left;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 3px 0;
+}
+.buy_tik_left:hover {
+  background-color: #155e7e;
+}
+.buy_tik_right {
+  width: 180px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #217aa0;
+  color: #c3d0d5;
+  border-radius: 8px;
+  line-height: 30px;
+  float: right;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 3px 0;
+}
+.buy_tik_right:hover {
+  background-color: #203f46;
+}
+
+/*########### header ends #########*/
+
+.headline {
+  /* border: 1px solid #343a3d; */
+  width: 100%;
+  height: 44px;
+  border-top: 1px solid #343a3d;
+  border-bottom: 1px solid #343a3d;
+}
+.headline marquee {
+  direction: right;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  color: #597784;
+  letter-spacing: 3px;
+  background-color: #11191b;
+  text-align: center;
+  line-height: 41px;
+}
+
+/*######### headline ends ##########*/
+
+.countdown {
+  width: 920px;
+  height: 574px;
+  margin: 100px auto;
+  border-radius: 8px;
+  background-image: linear-gradient(#06161d, #1f6e8f);
+}
+.countdown h2 {
+  text-align: center;
+  color: #9cb9c5;
+  font-family: Impact;
+  font-size: 82px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.countdown h3 {
+  font-family: Impact;
+  font-weight: 300;
+  text-align: center;
+  color: #447488;
+  font-size: 59px;
+  margin: -18px 0 20px;
+}
+.countdown p {
+  width: 640px;
+  margin: 50px auto;
+  font-size: 17px;
+  color: #8599a1;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 40px;
+  text-align: center;
+}
+.countdown .number_box {
+  width: 546px;
+  margin: 0 auto;
+}
+.countdown .number_box ul {
+  list-style: none;
+}
+.countdown .number_box ul li {
+  float: left;
+  margin-right: 95px;
+  color: #0f2630;
+  font-size: 73px;
+  font-family: Impact;
+  font-weight: 500;
+}
+.countdown .number_box ul li span {
+  color: #a1cfe2;
+  font-size: 29px;
+  display: block;
+  margin-right: 6px;
+}
+
+/*########### coountdown ends ############*/
+
+
+.about_us {
+  width: 100%;
+  margin: 100px auto;
+  background: url(../images/MUSIC.png)no-repeat 0 0;
+  background-size: contain;
+}
+.about_us h2 {
+  color: #b3c2c9;
+  font-size: 41px;
+  font-family: Impact;
+  font-weight: 500;
+  text-align: center;
+}
+.about_us h2 span {
+  color: #4b4b4b;
+  letter-spacing: 10px;
+}
+.about_us .abt_us_container {
+  width: 100%;
+  margin-top: 40px;
+}
+.abt_us_cont {
+  width: 385px;
+  float: left;
+}
+.abt_us_cont_logo {
+  border: 1px solid #707070;
+  border-radius: 50%;
+  width: 71px;
+  height: 71px;
+  margin: 0 auto;
+  line-height: 10px;
+  /* background-color: #1f6e8f; */
+  padding: 3px;
+}
+.abt_us_cont_border {
+  background-color: #1f6e8f;
+  border-radius: 50%;
+  width: 71px;
+  height: 71px;
+}
+.abt_us_cont_logo img {
+  position: relative;
+  top: 14px;
+  left: 13px;
+}
+.abt_us_container h3 {
+  margin: 30px 0;
+  color: #6c99ac;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  line-height: 37px;
+  font-weight: 500;
+  font-size: 22px;
+}
+.abt_us_container p {
+  color: #8c989c;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+/*####### about us ends #######*/
+
+.featured {
+  width: 100%;
+  margin: 100px auto;
+  background: url(../images/MUSIC.png) no-repeat 0 0;
+  background-size: contain;
+}
+.featured_space{
+  background: url(../images/MUSIC.png) no-repeat 0 0;
+  background-size: contain;
+}
+.featured h2 {
+  font-family: "Impact";
+  font-size: 45px;
+  letter-spacing: 10px;
+  font-weight: 500;
+  text-align: center;
+  color: #4b4b4b;
+}
+.featured h2 span {
+  font-size: 35px;
+  color: #baccd1;
+  letter-spacing: 2px;
+  display: block;
+  margin-top: -5px;
+}
+.featured p {
+  color: #8c989c;
+  font-size: 15px;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.featured_container_top {
+  background: url(../images/weekend.png) no-repeat 0 0;
+  width: 607px;
+  height: 355px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  float: left;
+  margin-top: 50px;
+}
+.featured_container_top h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 40px 0 0 30px;
+  font-family: "Impact", sans-serif;
+  color: #a3bbc2;
+  float: left;
+  width: 138px;
+  letter-spacing: 0px;
+}
+.featured_container_top h3 {
+  font-size: 54px;
+  font-weight: 500;
+  margin: 40px 40px 0 0;
+  font-family: "Impact", sans-serif;
+  color: #333739;
+  float: right;
+  width: 138px;
+  letter-spacing: 10px;
+}
+.featured_container_top h3 span {
+  color: #36677d;
+  position: relative;
+  top: -25px;
+  right: 8px;
+  font-size: 39px;
+}
+.featured_container_top_social {
+  width: 128px;
+  margin: 130px 20px 40px 0;
+  float: right;
+}
+.featured_container_top_social ul {
+  list-style: none;
+}
+.featured_container_top_social ul li {
+  float: left;
+  margin-right: 10px;
+}
+.featured_container_top_social ul li a.fb {
+  background: url(../images/fb_1.png) no-repeat 0 0;
+  width: 10px;
+  height: 19px;
+  display: block;
+}
+.featured_container_top_social ul li a.fb:hover {
+  background: url(../images/facebook_2.png) no-repeat 0 0;
+}
+.featured_container_top_social ul li a.insta {
+  background: url(../images/insta_1.png) no-repeat 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.featured_container_top_social ul li a.insta:hover {
+  background: url(../images/insta_2.png) no-repeat 0 0;
+}
+.featured_container_top_social ul li a.gplus {
+  background: url(../images/gplus_1.png) no-repeat 0 0;
+  display: block;
+  width: 33px;
+  height: 21px;
+}
+.featured_container_top_social ul li a.gplus:hover {
+  background: url(../images/google-plus_2.png) no-repeat 0 0;
+}
+.featured_container_top_social ul li a.twt {
+  background: url(../images/twt_1.png) no-repeat 0 0;
+  display: block;
+  width: 24px;
+  height: 20px;
+}
+.featured_container_top_social ul li a.twt:hover {
+  background: url(../images/twt_2.png) no-repeat 0 0;
+}
+.featured_description {
+  width: 213px;
+  height: 355px;
+  float: left;
+  background: #09151c;
+  margin-top: 50px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.featured_description_border {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.featured_description p {
+  color: #89a9bc;
+  font-style: italic;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 193px;
+  line-height: 25px;
+  margin: 45px auto;
+}
+.featured_description h2 {
+  font-family: Segoe UI;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+.featured_description_viewmore {
+  width: 129px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #1d3b48;
+  color: #d8e5eb;
+  border-radius: 8px;
+  line-height: 30px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  margin: 30px auto;
+}
+.featured_description_viewmore:hover {
+  background-color: #155e7e;
+}
+
+.featured_container_bottom {
+  background: url(../images/drake.png) no-repeat 0 0;
+  width: 607px;
+  height: 355px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  float: left;
+  margin-top: 50px;
+}
+.featured_container_bottom h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 40px 0 0 30px;
+  font-family: "Impact", sans-serif;
+  color: #3b4143;
+  float: right;
+  width: 138px;
+  letter-spacing: 0px;
+}
+.featured_container_bottom h3 {
+  font-size: 54px;
+  font-weight: 500;
+  margin: 40px 0 0 40px;
+  font-family: "Impact", sans-serif;
+  color: #333739;
+  float: left;
+  width: 138px;
+  letter-spacing: 10px;
+}
+.featured_container_bottom h3 span {
+  color: #36677d;
+  position: relative;
+  top: -25px;
+  right: -3px;
+  font-size: 39px;
+}
+.featured_container_bottom_social {
+  width: 128px;
+  margin: 300px 0 40px -142px;
+  float: left;
+}
+.featured_container_bottom_social ul {
+  list-style: none;
+}
+.featured_container_bottom_social ul li {
+  float: left;
+  margin-right: 10px;
+}
+.featured_container_bottom_social ul li a.fb {
+  background: url(../images/fb_1.png) no-repeat 0 0;
+  width: 10px;
+  height: 19px;
+  display: block;
+}
+.featured_container_bottom_social ul li a.fb:hover {
+  background: url(../images/facebook_2.png) no-repeat 0 0;
+}
+.featured_container_bottom_social ul li a.insta {
+  background: url(../images/insta_1.png) no-repeat 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.featured_container_bottom_social ul li a.insta:hover {
+  background: url(../images/insta_2.png) no-repeat 0 0;
+}
+.featured_container_bottom_social ul li a.gplus {
+  background: url(../images/gplus_1.png) no-repeat 0 0;
+  display: block;
+  width: 33px;
+  height: 21px;
+}
+.featured_container_bottom_social ul li a.gplus:hover {
+  background: url(../images/google-plus_2.png) no-repeat 0 0;
+}
+.featured_container_bottom_social ul li a.twt {
+  background: url(../images/twt_1.png) no-repeat 0 0;
+  display: block;
+  width: 24px;
+  height: 20px;
+}
+.featured_container_bottom_social ul li a.twt:hover {
+  background: url(../images/twt_2.png) no-repeat 0 0;
+}
+.featured_cont {
+  width: 820px;
+  margin: 0 auto;
+}
+
+/* ####### featured artist ends ########  */
+
+.gallary {
+  width: 100%;
+  margin: 100px auto;
+  background: url(../images/MUSIC.png)no-repeat 0 0;
+  background-size: contain;
+}
+.gallary h2 {
+  font-family: "Impact", sans-serif;
+  font-size: 38px;
+  letter-spacing: 2px;
+  color: #baccd1;
+  text-align: center;
+  font-weight: 500;
+}
+.gallary h2 span {
+  font-size: 54px;
+  letter-spacing: 10px;
+  color: #4b4b4b;
+  margin-top: -5px;
+  display: block;
+}
+.gallary p {
+  color: #89a9bc;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.gallary_left_box {
+  width: 270px;
+  float: left;
+  padding-bottom: 10px;
+  
+}
+.gallary_left_box img {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.gallary_img_distance{
+  margin-top: 20px;
+}
+.gallary_left_box img:hover{
+  transform: scale(1.05);
+}
+.gallary_right_box {
+  width: 280px;
+  float: left;
+  margin: 0 19px;
+}
+.gallary_right_box img {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.gallary_right_box img:hover{
+  transform: scale(1.05);
+}
+.gallary_viewmore {
+  width: 115px;
+  border: 1px solid #61abcb;
+  text-align: center;
+  font-size: 16px;
+  background-color: #1d3b48;
+  color: #ffffe8;
+  border-radius: 8px;
+  line-height: 30px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  margin: 50px auto 0;
+
+}
+.gallary_viewmore:hover {
+  background-color: #0f6b92;
+}
+
+/*######## gallary ends #######*/
+
+.footer {
+  background: url("../images/footer.png") no-repeat 0 0 #11191b;
+  background-size: cover;
+  background-position: center;
+}
+.footer_container {
+  width: 950px;
+  margin: 0 auto;
+}
+.logo_container {
+  width: 226px;
+  float: left;
+  /* margin-left: 100px; */
+  margin-top: 100px;
+}
+.logo_container p {
+  margin: 40px 0;
+  font-size: 14px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  color: #97a1a5;
+  text-align: left;
+  line-height: 26px;
+}
+.logo_container_social {
+  width: 100%;
+  margin: 0 auto;
+}
+.logo_container_social ul {
+  list-style: none;
+}
+.logo_container_social ul li {
+  float: left;
+  margin-right: 35px;
+}
+.logo_container_social ul li a.fb {
+  background: url(../images/fb_1.png) no-repeat 0 0;
+  display: block;
+  width: 10px;
+  height: 19px;
+}
+.logo_container_social ul li a.fb:hover {
+  background: url(../images/facebook_2.png) no-repeat 0 0;
+}
+.logo_container_social ul li a.insta {
+  background: url(../images/insta_1.png) no-repeat 0 0;
+  display: block;
+  width: 19px;
+  height: 19px;
+}
+.logo_container_social ul li a.insta:hover {
+  background: url(../images/insta_2.png) no-repeat 0 0;
+}
+.logo_container_social ul li a.gplus {
+  background: url(../images/gplus_1.png) no-repeat 0 0;
+  display: block;
+  width: 29px;
+  height: 19px;
+}
+.logo_container_social ul li a.gplus:hover {
+  background: url(../images/google-plus_2.png) no-repeat 0 0;
+}
+.logo_container_social ul li a.twt {
+  background: url(../images/twt_1.png) no-repeat 0 0;
+  display: block;
+  width: 24px;
+  height: 19px;
+}
+.logo_container_social ul li a.twt:hover {
+  background: url(../images/twt_2.png) no-repeat 0 0;
+}
+.footer_description {
+  width: 650px;
+  float: left;
+  margin-top: 115px;
+}
+.footer_description_left {
+  width: 145px;
+  float: left;
+  margin-left: 50px;
+}
+.footer_description h2 {
+  font-family: Impact;
+  color: #70adc7;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.footer_menu {
+  width: 145px;
+  margin: 30px 0;
+}
+.footer_menu ul li {
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.footer_menu ul li a {
+  text-decoration: none;
+  color: #97a1a5;
+  font-family: Segoe UI;
+  font-size: 15px;
+}
+.footer_menu ul li a:hover {
+  color: #1d94c7;
+}
+
+.footer_description_right {
+  width: 234px;
+  float: right;
+}
+.footer_description_right p {
+  font-size: 15px;
+  font-family: Segoe UI;
+  line-height: 39px;
+  color: #97a1a5;
+  margin-top: 15px;
+}
+.footer_copyright {
+  font-size: 14px;
+  font-family: Segoe UI;
+  color: #848b8e;
+  margin-top: 300px;
+  text-align: center;
+}
